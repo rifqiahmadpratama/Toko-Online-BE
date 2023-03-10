@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "toko-online-378801",
+  "private_key_id": "50d91331e6c5a8737e189aa473daad5dd96e8f90",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDG6mxXiUyLNoC\nMTsLAHXRt7GRGE21QilvzqQ6MsSFaT3nZ8UkSRD1cUm6YpcP5nf7AfN7Lwq0BVqt\ndjYlUlYY6riBa0svyT1ejPMr6sj5Yb0WGg8EyQ2J93tFxvty1p46wfFrdE0fVEm6\nrMAmJrZjy2uTZS8N3BfypH4dAtrWrXMq7D5IGoUA042XK7ad+Ynnp9F/ExZXPAMV\noNcZRBIzuEKuLTpDQ97/eUvBJRRncp2sGRhzdbApIWhamzH8RfD4Bce6McdA3MBD\nYkxXpy+JNuRPnOWpxzJljbtr/fUrFOBLJMNSKTzPtmkLCCDjosNV4Qyd/BLqJPIp\nTX8LSppHAgMBAAECggEAQsmbYw3ZKb3Uut9jWLbFng6FiCeLojqNuKpB6XIrd4e5\nGxeYkn04guxO0rChCV5ZP+FBGa/WuB0FF0/Z5Ri0RD9E/Xhe+nKmwVD6hNQQC937\nPi+ZaIfyTIIc/pvIw1zYOUDehWwAYnMV8gLkm6qw0KR3pLMEUng+8l6AlSm/A7Eu\nRneDFTrLcjHTLcpl9LW6QNL9cKN5jWfxRAARl1uT1P5w0M7WV0Ox2YefIO334etu\ny1xWmGDeEk6ho904raiyUw2AlQ0MWh8wwQzqCO1nVU0hA4/iajwDhept2h0RKW+B\nd+wtaGknpZC/limD2oA4DbioN26xW02FE2+GzGKikQKBgQD5cx0+pVaUAcis+hzV\nbhb1uER8n//QUok8TbEmTmNnQq2coVg9KeCKTqZPaGQZKpRJGsNkJNSvxKolSkNe\n8pH2SpE3hJI4f7IiOmTZnGwNC0XeIf2ilN6Fyihz5Ia8x2sKLzICqlAmt51ustOG\nxHFkFtA2wm+74GALX/w0i3qfqwKBgQDIOz7s3gOV7FYbhdRjcfuO+awntbu5ZhxM\n0XX7nHdUDL64aHIKPmfcGwAfAf40dH6md/dPmyitGYgVL1lY55ctajMLSO9xdb5K\nr0F4O8A7iwN2C9Wl+GA4pY1bvmOUD8KiVNlKUHRHVj0dmE0i1BVLRv/4YxSmWK3q\nOMDA4W5D1QKBgEPsIVlugc2ZUsAu9mzzJhNQUm2wz2I1JyMhcIwiqhRy5n0Qvcsh\nvP9L/SMAJMlpe6kQPYXmNXeK0F2JBCE1YaMzmKkKUxpJQwLo7Y8HdbBzklmy3bJI\nYPMDIdK0ti9vCWljgnWRVHPGaXq7/LbkhI+hWp6egPgiV2ShhTX1iLUzAoGBAIdz\nfLfj4G0VOZLYz7qOKuynfYxHZjyfFNnqgHO7fwW+sW4ySaMgYEYHhed0A7EcdWjL\nkuOpRLUEpogeRcTcteolA27I4iHQ0u/W6uUZFouxGKBMlTT3drAbXisH+nj4yGPk\nHjIlhuOTNTjGBLhg3B7WYuZ2sEtvhgcCaXKRjXQZAoGAG7QMWKRY67h839tgsj4b\nmnbl48HUSHsdlrO/iEW274CjQSfHc+aKO/mYBHSrWcwjAIJQ+kRRDw9Wl3/BX+on\nJtM1w01vrqGtpSPEfUlqU2ol9NGHoAFSZvfRrlAdi7UfQrtZwQ7zdJiA1NX6lRsN\ntdJcohmY+SsffVkzrFzzUDY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tokoonline@toko-online-378801.iam.gserviceaccount.com",
+  "client_id": "111717332071485036854",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tokoonline%40toko-online-378801.iam.gserviceaccount.com"
+}
