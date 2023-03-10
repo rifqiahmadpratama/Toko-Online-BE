@@ -109,9 +109,13 @@ const userController = {
       await findEmail(email, function (err, user) {
         if (err) return err;
         if (user.length > 0) {
-          const isValidPassword = bcrypt.compareSync(password, password);
+          console.log(user[0].passwordHash);
+          const isValidPassword = bcrypt.compareSync(
+            password,
+            user[0].passwordHash
+          );
           console.log(isValidPassword);
-          if (isValidPassword) {
+          if (isValidPassword == false) {
             return commonHelper.response(res, null, 403, "Password is invalid");
           }
           delete user.password;
