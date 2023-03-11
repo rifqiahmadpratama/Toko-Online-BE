@@ -1,4 +1,5 @@
 const createPool = require("../config/db");
+const { sendVerificationEmail } = require("../helper/verification");
 
 const findEmail = (email, result) => {
   return createPool.query(
@@ -38,15 +39,24 @@ const getAlluser = (result) => {
     }
   });
 };
-const addAlluser = (id, email, passwordHash, name, role, result) => {
+const addAlluser = (
+  id,
+  email,
+  passwordHash,
+  name,
+  role,
+  verification_code,
+  result
+) => {
   return createPool.query(
-    `INSERT INTO user (id,email,passwordHash,name,photo,address,role) 
-  VAlUES ('${id}','${email}','${passwordHash}','${name}','','','${role}')`,
+    `INSERT INTO user (id,email,passwordHash,name,photo,address,role,verification_code) 
+  VAlUES ('${id}','${email}','${passwordHash}','${name}','','','${role}',${verification_code})`,
     function (err, res) {
       if (err) {
         console.log("error = ", err);
         result(err);
       } else {
+        sendVerificationEmail(email, verification_code);
         result(null, res);
       }
     }

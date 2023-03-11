@@ -4,6 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 const commonHelper = require("../helper/common");
 const authHelper = require("../helper/auth");
 const { findEmail, updateProfile } = require("../models/user");
+const { generateVerificationCode } = require("../helper/verification");
 
 const cloudinary = require("cloudinary").v2;
 
@@ -25,7 +26,7 @@ const userController = {
       const { email, password, name } = req.body;
       const passwordHash = bcrypt.hashSync(password);
       const role = "penjual";
-
+      const verification_code = generateVerificationCode();
       const cek = await new Promise((resolve, reject) => {
         findEmail(email, function (err, user) {
           if (err) {
@@ -43,6 +44,7 @@ const userController = {
           passwordHash,
           name,
           role,
+          verification_code,
           function (err, user) {
             if (err) res.send(err);
             res.send("Register Berhasil");
