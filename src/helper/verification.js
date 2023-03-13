@@ -22,12 +22,8 @@ const sendVerificationEmail = async (email, verificationCode) => {
     const mailOptions = {
       from: account.user,
       to: email,
-      subject: "Verify your email address",
-      html: `
-            <p>Thank you for registering with our service!</p>
-            <p>Please use the following verification code to verify your email address:</p>
-            <h2>${verificationCode}</h2>
-          `,
+      subject: "Verifikasi Email",
+      text: `Klik link berikut untuk verifikasi email: http://localhost:3000/user/verify?email=${email}&verification_code=${verificationCode}`,
     };
 
     transporter.sendMail(mailOptions, (err, info) => {

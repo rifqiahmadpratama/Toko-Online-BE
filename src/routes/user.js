@@ -5,6 +5,7 @@ const upload = require("../middlewares/upload");
 const userController = require("../controllers/user");
 
 router.get("/", userController.getAlluser);
+router.get("/verify", userController.verify);
 router.post("/register-penjual", userController.registerPenjual);
 router.post("/register-pembeli", userController.registerPembeli);
 router.post("/login", userController.login);
